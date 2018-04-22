@@ -1,3 +1,3 @@
 # Git
 
-Teste do Git e GitHub
+Teste do Git e GitHub.
