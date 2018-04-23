@@ -1,0 +1,93 @@
+/*
+	Validador:
+	https://jigsaw.w3.org/css-validator/validator
+
+	http://www.redacaomultiverso.com.br/entrevistas/
+*/
+
+body {
+	background: #FFFDB3;
+	background-image: url(imagens/textura.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+	background-attachment: fixed;
+	font-family: arial, verdana, sans-serif;
+}
+
+.bordas{
+	border-top: 3px solid #E84A41;
+	border-right: 6px dotted #86E821;
+	border-bottom: 6px dashed #E84A41;
+	border-left: 5px double #FF6E2C;
+	margin: 20px 30px 50px 60px;
+	padding: 20px 30px 50px 60px;
+}
+
+p {
+	width: 60%;
+	font-size: 12px;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-style: oblique;
+	/*font-weight: normal;*/
+}
+
+ul li {
+	list-style-type: square;
+}
+
+ol li{
+	/*list-style-type: lower-greek;*/
+	list-style-type: katakana;
+}
+
+#listaicones {
+	list-style-image: url(icon/linux3.png);
+	/*list-style-image: url(icon/linux.jpg);*/
+}
+
+.destaque{
+	line-height: 50px;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+	text-align: center;
+	text-decoration: overline underline line-through;
+}
+
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #E84A41;
+
+}
+
+a:hover{
+	color: #86E821;
+	text-decoration: overline underline
+}
+
+
+
+
+
+
+
+/*
+
+padding
+
+margin: 40px;
+
+margin: 40px   20px;
+		top    right
+		bottom left
+
+margin: 30px 10px   5px    40px;		
+
+		top  right  bottom left
+
+
+
+*/
